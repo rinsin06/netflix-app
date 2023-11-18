@@ -1,0 +1,60 @@
+.navbar{
+
+position: fixed;
+top: 0;
+width: 100%;
+height: 30px;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+background-color: #111;
+color: #fff;
+
+}
+
+.navbar_links {
+
+    position: fixed;
+    display: flex;
+    gap: 20px; /* Adjust the gap between <p> tags as needed */
+    padding-left: 140px;
+    
+  }
+
+  .input{
+    width: 250px; /* Set initial width to 0 */
+    padding: 8px; /* Adjust padding as needed */
+    border: none;
+    outline: none;
+  transition: ease-in-out; /* Add a transition for the width property */
+  }
+
+  .links{
+    cursor: pointer;
+
+  }
+
+  .links:hover{
+
+    transform: scale(1.1);
+  }
+  .avatar_links{
+    position: fixed;
+    right:80px;
+    display: flex;
+    gap: 20px;
+
+  }
+
+.logo{
+
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+.avatar{
+
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
